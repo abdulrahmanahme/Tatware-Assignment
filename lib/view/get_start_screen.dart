@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:tatware/icons/my_flutter_app_icons.dart';
 import 'package:tatware/view/home_screen.dart';
 import 'package:tatware/view/layout_sereen.dart';
 

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:tatware/icons/my_flutter_app_icons.dart';
 import 'package:tatware/view/get_start_screen.dart';
 
 class StartScreen extends StatefulWidget {

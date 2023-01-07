@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tatware/component/component.dart';
-import 'package:tatware/icons/my_flutter_app_icons.dart';
 import 'package:tatware/model/user_model.dart';
 import 'package:draggable_bottom_sheet/draggable_bottom_sheet.dart';
 

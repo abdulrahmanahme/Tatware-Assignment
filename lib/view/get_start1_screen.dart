@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:tatware/component/component.dart';
-import 'package:tatware/icons/my_flutter_app_icons.dart';
 import 'package:tatware/model/user_model.dart';
 
 class ChatSCreen extends StatefulWidget {
