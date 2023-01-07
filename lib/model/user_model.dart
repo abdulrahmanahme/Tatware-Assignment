@@ -17,11 +17,15 @@ class ChatMessage{
 }
 
 List<ChatMessage> messages = [
-    ChatMessage(messageContent: "Hello, Will", messageType: "receiver"),
-    ChatMessage(messageContent: "How have you been?", messageType: "receiver"),
-    ChatMessage(messageContent: "Hey Kriss, I am doing fine dude. wbu?", messageType: "sender"),
-    ChatMessage(messageContent: "ehhhh, doing OK.", messageType: "receiver"),
-    ChatMessage(messageContent: "Try Add something to appear in chat?", messageType: "sender"),
+    ChatMessage(messageContent: "Hi, What is your firstname?", messageType: "receiver"),
+    ChatMessage(messageContent: "Abdalla", messageType: "sender"),
+    ChatMessage(messageContent: "Ok, Abdalla what is your last name", messageType: "receiver"),
+    ChatMessage(messageContent: "Ahmed", messageType: "sender"),
+    ChatMessage(messageContent: "Mr Abdalla Ahmed , What is your Title?", messageType:  "receiver"),
+    ChatMessage(messageContent: "Flutter Developer", messageType:"sender"),
+    ChatMessage(messageContent: "What the catagories you will need expert in?", messageType:"receiver"),
+
+
   ];
 
 List<User>userData=const[

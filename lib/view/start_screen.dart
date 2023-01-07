@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tatware/icons/my_flutter_app_icons.dart';
-import 'package:tatware/view/get_start_page.dart';
+import 'package:tatware/view/get_start_screen.dart';
 
 class StartScreen extends StatefulWidget {
   @override
@@ -23,7 +23,7 @@ class _StartScreenState extends State<StartScreen> {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('assets/image/startImage.png'),
+            image: AssetImage('assets/image/startScreen/StartImage.png'),
             fit: BoxFit.cover),
       ),
       child: Scaffold(
@@ -43,6 +43,8 @@ class _StartScreenState extends State<StartScreen> {
                     'Oranos',
                     style: TextStyle(
                       fontSize: 45,
+                  fontFamily: 'Poppins',
+
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
                     ),
@@ -64,10 +66,10 @@ class _StartScreenState extends State<StartScreen> {
               const Text(
                 'Expert From Every planet',
                 style: TextStyle(
-                  fontSize: 17,
+                  fontSize: 20,
                   fontFamily: 'Poppins',
                 
-                  color: Colors.black,
+                  color: Color(0xff5F5F5F),
                 ),
               ),
               Spacer(),
@@ -144,7 +146,10 @@ class _StartScreenState extends State<StartScreen> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: const [
-                    Icon(MyFlutterApp.blur_circular),
+                    // Icon(MyFlutterApp.blur_circular),
+                    // IconImage(),
+                    ImageIcon(AssetImage('assets/image/startScreen/earth1.png'),
+                    size: 20,),
                     SizedBox(
                       width: 8,
                     ),

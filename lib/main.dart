@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tatware/view/chat_screen.dart';
+import 'package:tatware/view/get_start1_screen.dart';
 import 'package:tatware/view/start_screen.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 

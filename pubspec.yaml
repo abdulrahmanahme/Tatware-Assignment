@@ -64,21 +64,32 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/image/startImage.png
-    - assets/image/shap.png
     - assets/image/repot.png
     - assets/image/man.png
     - assets/image/woman.png
-    - assets/image/home1.png
-    - assets/image/star.png
-    - assets/image/wallet1.png
-    - assets/image/profile1.png
-    - assets/image/Group1.png
-    - assets/image/Group2.png
-    - assets/image/Group3.png
-    - assets/image/Group4.png
-    - assets/image/Group5.png
-    - assets/image/Group6.png
-    - assets/image/chat.png
+    - assets/image/GetStart/Path.png
+    - assets/image/GetStart/Path.png
+    - assets/image/GetStart/repot.png
+    - assets/image/GetStart1/check1.png
+    - assets/image/GetStart1/chatearth2.png
+    - assets/image/GetStart1/Voice2.png
+    - assets/image/GetStart1/Send.png
+    - assets/image/GetStart1/chatrepot.png
+    - assets/image/Home/Home.png
+    - assets/image/Home/Star.png
+    - assets/image/Home/Wallet.png
+    - assets/image/Home/Profile.png
+    - assets/image/Home/gr1.png
+    - assets/image/Home/gr2.png
+    - assets/image/Home/gr3.png
+    - assets/image/Home/gr4.png
+    - assets/image/Home/gr5.png
+    - assets/image/Home/gr6.png
+    - assets/image/startScreen/earth1.png
+    - assets/image/startScreen/earth.png
+    - assets/image/startScreen/StartImage.png
+
+    
 
 
 

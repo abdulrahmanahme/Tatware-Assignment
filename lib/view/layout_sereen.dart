@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tatware/view/chat_screen.dart';
+import 'package:tatware/view/get_start1_screen.dart';
 import 'package:tatware/view/home_screen.dart';
 import 'package:tatware/view/profile_screen.dart';
-import 'package:tatware/view/star_screen.dart';
 import 'package:tatware/view/start_screen.dart';
 import 'package:tatware/view/wallet_screen.dart';
 
@@ -39,30 +38,32 @@ class _LayoutScreenState extends State<LayoutScreen> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
+                        
                           cubit.bottomBar(
                             numberPage: 0,
-                            currentscreen:HomeScreen(),
-                            icon: AssetImage("assets/image/home1.png"),
+                            currentscreen:ChatSCreen(),
+                            icon:  AssetImage(
+                                "assets/image/Home/Star.png"),
                           ),
-                          cubit.bottomBargetuser(
+                          
+                           cubit.bottomBar(
                             numberPage: 1,
-                            currentscreen: ChatSCreen(),
-                            icon: AssetImage(
-                                "assets/image/star.png"),
+                            currentscreen:HomeScreen(),
+                            icon: AssetImage("assets/image/Home/Home.png"),
                           ),
                           SizedBox(width: 15),
                           cubit.bottomBar(
                             numberPage: 2,
                             currentscreen: WalletScreen(),
                             // icon: Icons.mail,
-                            icon: AssetImage("assets/image/wallet1.png"),
+                            icon: AssetImage("assets/image/Home/Wallet.png"),
                           ),
                           cubit.bottomBar(
                             numberPage: 3,
                             currentscreen:  ProfileScreen(),
                             // icon: Icons.person,
                             // iconName: 'Setting',
-                            icon: AssetImage("assets/image/profile1.png"),
+                            icon: AssetImage("assets/image/Home/Profile.png"),
                           ),
                         ],
                       ),

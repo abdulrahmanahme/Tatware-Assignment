@@ -75,6 +75,11 @@ class _HomeScreenState extends State<HomeScreen> {
                           // fontWeight: FontWeight.bold,
                         ),
                       ),
+                      Spacer(),
+                      Padding(
+                        padding: EdgeInsets.only(right: 5),
+                        child: Icon(Icons.more_horiz,color: Colors.grey,),
+                      )
                ],
              ),
               SizedBox(
@@ -88,6 +93,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     name: 'Abdo',
                     image:'assets/image/man.png',
                     checkbox: 1,
+                  ),
+                ),
+                   Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: CardWidget(
+                    name: 'Nada',
+                    image:'assets/image/woman.png',
+                    checkbox: 0,
                   ),
                 ),
                
@@ -110,6 +123,11 @@ class _HomeScreenState extends State<HomeScreen> {
                       // fontWeight: FontWeight.bold,
                     ),
                   ),
+                  Spacer(),
+                      Padding(
+                        padding: EdgeInsets.only(right: 5),
+                        child: Icon(Icons.more_horiz,color: Colors.grey,),
+                      )
                 ],
               ),
             ),
@@ -132,12 +150,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
              SizedBox(
-              height: 20.h,
+              height: 18.h,
             ),
           
              Padding(
-               padding: const EdgeInsets.only(bottom: 40),
-               child: InkWell(
+               padding: const EdgeInsets.only(bottom: 50),
+               child: GestureDetector(
                 onTap: (){
             draggleSheet(context:context);
 
@@ -147,7 +165,7 @@ class _HomeScreenState extends State<HomeScreen> {
                            width: 50,
                            height: 10,
                            decoration: BoxDecoration(
-                  color: Colors.grey[400],
+                  color: Colors.grey,
                   borderRadius: BorderRadius.circular(10),
                            ),
                          ),

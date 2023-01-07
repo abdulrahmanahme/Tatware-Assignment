@@ -8,27 +8,29 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            SizedBox(
-              height: 1.h,
-            ),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
-                Text(
-                  ' ProfilePage',
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.black,
-                    fontFamily: 'Poppins',
-                    // fontWeight: FontWeight.bold,
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 1.h,
+              ),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Text(
+                    ' ProfilePage',
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.black,
+                      fontFamily: 'Poppins',
+                      // fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
